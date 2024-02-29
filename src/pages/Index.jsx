@@ -3,9 +3,9 @@ import { Box, Flex, Image, Text, IconButton, Stack, Input, Avatar, Container, He
 import { FaHeart, FaRegHeart, FaComment, FaPlusSquare, FaFilm } from "react-icons/fa";
 
 const posts = [
-  { id: 1, user: "user1", image: "https://images.unsplash.com/photo-1589807867840-aca1258de008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzY2VuaWMlMjB2aWV3fGVufDB8fHx8MTcwOTE5NzU5MXww&ixlib=rb-4.0.3&q=80&w=1080", likes: 10, comments: 2 },
-  { id: 2, user: "user2", image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWx8ZW58MHx8fHwxNzA5MTk3NTkxfDA&ixlib=rb-4.0.3&q=80&w=1080", likes: 5, comments: 1 },
-  // Add more posts here
+  { id: 1, user: "user1", image: "https://cdn2.thecatapi.com/images/MTY3ODI4OA.jpg", likes: 10, comments: 2 },
+  { id: 2, user: "user2", image: "https://cdn2.thecatapi.com/images/MTY3MTkxMA.jpg", likes: 5, comments: 1 },
+  // Additional cat posts could be added here
 ];
 
 const Index = () => {
